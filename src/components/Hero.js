@@ -6,7 +6,7 @@ function Hero() {
   const [showModal, setShowModal] = useState(false);
 
   function handleShowModal() {
-    setShowModal(!showModal)
+    setShowModal(!showModal);
   }
   return (
     <section className="flex items-center hero">
@@ -18,7 +18,7 @@ function Hero() {
         <h2 className="px-8 my-6 text-base tracking-wide md:px-0 md:text-lg">
           Kami menyediakan furniture berkelas yang
           <br className="hidden lg:block" />
-          membuat ruangan terasa homey
+          membuat ruangan terasa nyaman
         </h2>
         <div>
           <a href="#browse-the-room" className="flex-none inline-block px-8 py-3 mt-4 text-black transition duration-200 bg-pink-400 rounded-full hover:bg-black hover:text-pink-400">
@@ -35,7 +35,7 @@ function Hero() {
           <img src="images/content/image-section-1.png" alt="hero 1" className="absolute inset-0 object-cover object-center w-full h-full md:relative" />
         </div>
       </div>
-    { showModal && <Modal handleShowModal={handleShowModal} />}
+      {showModal && <Modal handleShowModal={handleShowModal} />}
     </section>
   );
 }
