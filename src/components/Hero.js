@@ -1,6 +1,13 @@
+import { useState } from "react";
+
 import Modal from "./Modal.js";
 
 function Hero() {
+  const [showModal, setShowModal] = useState(false);
+
+  function handleShowModal() {
+    setShowModal(!showModal)
+  }
   return (
     <section className="flex items-center hero">
       <div className="absolute inset-0 z-20 flex flex-col justify-center w-full text-center md:relative md:w-1/2 hero-caption">
@@ -23,12 +30,12 @@ function Hero() {
         <div className="relative hero-image">
           <div className="inset-0 z-10 bg-black overlay opacity-35"></div>
           <div className="bottom-0 right-0 overlay md:inset-0">
-            <button className="z-30 video hero-cta focus:outline-none modal-trigger"></button>
+            <button className="z-30 video hero-cta focus:outline-none modal-trigger" onClick={handleShowModal}></button>
           </div>
           <img src="images/content/image-section-1.png" alt="hero 1" className="absolute inset-0 object-cover object-center w-full h-full md:relative" />
         </div>
       </div>
-      <Modal />
+    { showModal && <Modal handleShowModal={handleShowModal} />}
     </section>
   );
 }
