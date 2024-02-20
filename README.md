@@ -1,3 +1,3 @@
-# luxspace pwa App
+# furnBoard PWA App
 
-<J2>luxspace_pwa</J2>
+<J2>furnBoard</J2>
