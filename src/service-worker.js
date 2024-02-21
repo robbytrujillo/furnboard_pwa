@@ -62,6 +62,15 @@ registerRoute(
   })
 );
 
+// Event service worker
+self.addEventListener('install', function(event) {
+  console.log("SW Install");
+});
+
+self.addEventListener('activate', function(event) {
+  console.log("SW Activate");
+});
+
 // This allows the web app to trigger skipWaiting via
 // registration.waiting.postMessage({type: 'SKIP_WAITING'})
 self.addEventListener('message', (event) => {
