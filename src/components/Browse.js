@@ -9,7 +9,7 @@ function Browse() {
           </h3>
         </div>
         <div className="grid grid-cols-9 grid-rows-2 gap-4">
-          <div className="relative col-span-9 row-span-1 md:col-span-4 card" style={{height: '180px'}}>
+          <div className="relative col-span-9 row-span-1 md:col-span-4 card" style={{ height: "180px" }}>
             <div className="card-shadow rounded-xl">
               <img src="./images/content/image-catalog-1.png" alt="" className="object-cover object-center w-full h-full overflow-hidden overlay rounded-xl" />
             </div>
@@ -17,6 +17,7 @@ function Browse() {
               <h5 className="text-lg font-semibold">Living Room</h5>
               <span className="">18.309 items</span>
             </div>
+            {/* eslint-disable-next-line */}
             <a href="details.html" className="stretched-link"></a>
           </div>
           <div className="relative col-span-9 row-span-1 md:col-span-2 md:row-span-2 card">
@@ -27,6 +28,7 @@ function Browse() {
               <h5 className="text-lg font-semibold">Decoration</h5>
               <span className="">77.392 items</span>
             </div>
+            {/* eslint-disable-next-line */}
             <a href="details.html" className="stretched-link"></a>
           </div>
           <div className="relative col-span-9 row-span-1 md:col-span-3 md:row-span-2 card">
@@ -37,6 +39,7 @@ function Browse() {
               <h5 className="text-lg font-semibold">Living Room</h5>
               <span className="">22.094 items</span>
             </div>
+            {/* eslint-disable-next-line */}
             <a href="details.html" className="stretched-link"></a>
           </div>
           <div className="relative col-span-9 row-span-1 md:col-span-4 card">
@@ -47,6 +50,7 @@ function Browse() {
               <h5 className="text-lg font-semibold">Children Room</h5>
               <span className="">837 items</span>
             </div>
+            {/* eslint-disable-next-line */}
             <a href="details.html" className="stretched-link"></a>
           </div>
         </div>

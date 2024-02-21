@@ -27,6 +27,7 @@ function Arrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Cangkir Mauttie</h5>
             <span className="">IDR 89.300</span>
+            {/* eslint-disable-next-line */}
             <a href="details.html" className="stretched-link"></a>
           </div>
 
@@ -44,6 +45,7 @@ function Arrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Bankyu Minimay</h5>
             <span className="">IDR 67.899</span>
+            {/* eslint-disable-next-line */}
             <a href="details.html" className="stretched-link"></a>
           </div>
 
@@ -61,6 +63,7 @@ function Arrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Buku Sidu Edition</h5>
             <span className="">IDR 120.699</span>
+            {/* eslint-disable-next-line */}
             <a href="details.html" className="stretched-link"></a>
           </div>
 
@@ -78,6 +81,7 @@ function Arrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Watch Notes X</h5>
             <span className="">IDR 1.973.000</span>
+            {/* eslint-disable-next-line */}
             <a href="details.html" className="stretched-link"></a>
           </div>
 
@@ -95,6 +99,7 @@ function Arrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Racking Plants</h5>
             <span className="">IDR 599.400</span>
+            {/* eslint-disable-next-line */}
             <a href="details.html" className="stretched-link"></a>
           </div>
 
@@ -112,6 +117,7 @@ function Arrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Racking Plants</h5>
             <span className="">IDR 599.400</span>
+            {/* eslint-disable-next-line */}
             <a href="#details.html" className="stretched-link"></a>
           </div>
 
@@ -129,6 +135,7 @@ function Arrived() {
             </div>
             <h5 className="mt-4 text-lg font-semibold">Racking Plants</h5>
             <span className="">IDR 599.400</span>
+            {/* eslint-disable-next-line */}
             <a href="#details.html" className="stretched-link"></a>
           </div>
         </div>
