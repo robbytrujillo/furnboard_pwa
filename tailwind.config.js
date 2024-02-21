@@ -198,6 +198,53 @@ module.exports = {
       "gradient-to-tl": "linear-gradient(to left, var(--tw-gradient-stops))",
     },
 
+    backgroundOpacity: (theme) => theme("opacity"),
+
+    backgrounPosition: {
+      bottom: "bottom",
+      center: "center",
+      left: "left",
+      "left-bottom": "left-bottom",
+      "left-top": "left-top",
+      right: "right",
+      "right-bottom": "right-bottom",
+      "right-top": "right-top",
+      top: "top",
+    },
+
+    backgroundSize: {
+      auto: "auto",
+      cover: "cover",
+      contain: "contain",
+    },
+
+    borderColor: (theme) => ({
+      ...theme("colors"),
+      DEFAULT: theme("colors.gray.200", "currentColor"),
+    }),
+
+    borderOpacity: (theme) => theme("opacity"),
+
+    borderRadius: {
+      none: "0px",
+      sm: "0.125rem",
+      DEFAULT: "0.25rem",
+      md: "0.375rem",
+      lg: "0.5rem",
+      xl: "0.75rem",
+      "2xl": "1rem",
+      "3xl": "1.5rem",
+      full: "9999px",
+    },
+
+    borderWidth: {
+      DEFAULT: "1px",
+      0: "0px",
+      2: "2px",
+      4: "4px",
+      8: "8px",
+    },
+
     extend: {},
   },
   plugins: [],
