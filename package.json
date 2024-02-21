@@ -29,10 +29,10 @@
     "start": "npm-run-all build:tailwind --parallel watch:tailwind start:react",
     "start:react": "BROWSER=none react-scripts start",
     "prebuild": "run-s build:tailwind",
-    
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "npm run build && serve -s build"
   },
   "eslintConfig": {
     "extends": [
