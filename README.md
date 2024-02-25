@@ -1,4 +1,4 @@
-# furnBoard PWA App
+# furnBoard PWA ecommerce App
 
 <J2>furnBoard</J2>
 

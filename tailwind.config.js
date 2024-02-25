@@ -286,7 +286,7 @@ module.exports = {
       DEFAULT: "1",
     },
     fontFamily: {
-      sans: ['"Open Sans"'],
+      sans: ['"Josefin Sans"'],
       serif: ["ui-serif", "Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
       mono: ["ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", '"Liberation Mono"', '"Courier New"', "monospace"],
     },
