@@ -64,7 +64,7 @@ registerRoute(
 
 // 26022024
 registerRoute(
-  ({ url }) => url.origin === "https://font.googleapis.com" || url.origin === "https://fonts.gstatic.com",
+  ({ url }) => url.origin === "https://fonts.googleapis.com" || url.origin === "https://fonts.gstatic.com",
   new NetworkFirst({
     cacheName: "fonts",
     plugins: [
