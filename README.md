@@ -4,3 +4,5 @@
 
 <!-- catatan:  -->
 <!-- "start": "react-scripts start", -->
+
+<!-- "start": "npm-run-all build:tailwind --parallel watch:tailwind start:react", -->

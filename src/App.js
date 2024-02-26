@@ -9,6 +9,21 @@ import AsideMenu from "./components/AsideMenu.js";
 import Footer from "./components/Footer.js";
 
 function App() {
+  const [items, setItems] = React.useState([]);
+
+  React.useEffect(function () {
+    (async function () {
+      const response = await fetch("https://bwacharity.fly.dev/items", {
+        headers: {
+          "Content-Type": "application/json",
+          accept: "application/json",
+          "x-api-key": process.env.REACT_APP_APIKEY,
+        },
+      });
+      const { nodes } = await response.json();
+      setItems(nodes);
+    })();
+  }, []);
   return (
     <>
       <Header />
